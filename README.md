@@ -5,3 +5,4 @@
 <!-- npm run server -->
 <!-- npm i nodemon --save-dev -->
 <!-- npm i express-async-handler -->
+<!-- npm i jsonwebtoken -->
