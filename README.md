@@ -7,3 +7,8 @@
 <!-- npm i express-async-handler -->
 <!-- npm i jsonwebtoken -->
 <!-- npm i cookie-parser -->
+
+// Produts Page
+
+<!-- npm i morgan -->
+<!-- npm i slugify -->
