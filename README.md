@@ -12,3 +12,6 @@
 
 <!-- npm i morgan -->
 <!-- npm i slugify -->
+<!-- npm i nodemailer  -->
+
+<!-- app pass: bkbufkyngjlrbpwz -->
