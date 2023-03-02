@@ -15,6 +15,7 @@ const createProduct = asyncHandler(async (req, res) => {
   }
 })
 // Update a Product
+
 const updateProduct = asyncHandler(async (req, res) => {
   const { id: taskID } = req.params
   try {
@@ -34,6 +35,24 @@ const updateProduct = asyncHandler(async (req, res) => {
     throw new Error(error)
   }
 })
+
+/*
+const updateProduct = asyncHandler(async (req, res) => {
+  const id = req.params
+  try {
+    if (req.body.title) {
+      req.body.slug = slugify(req.body.title)
+    }
+    const updateProduct = await Product.findOneAndUpdate({ id }, req.body, {
+      new: true,
+    })
+    res.json(updateProduct)
+    // console.log(updateProduct)
+  } catch (error) {
+    throw new Error(error)
+  }
+})
+*/
 // Delete Product
 
 const deleteProduct = asyncHandler(async (req, res) => {
